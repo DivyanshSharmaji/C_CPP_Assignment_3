@@ -109,7 +109,8 @@ Ans-5:  #include<stdio.h>
             int num;
             printf("Enter a number: ");
             scanf("%d",&num);
-            if((num/1000)<=0 && (num/100)>0){
+            //if((num/1000)<=0 && (num/100)>0){
+	    if(num>99 && num<1000){
                 printf("Three digit number\n");
             }
             else{
